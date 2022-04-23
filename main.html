@@ -21,32 +21,59 @@ h2 {
   font-size: 30px;
 }
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #ffff4d;
   border: none;
-  color: white;
+  color: black;
   padding: 12px 28px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
+  font-weight: bold;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
+<!-- Style for different buttons -->
+.left-button {
+  margin: 0;
+  position: relative;
+  top: 60%;
+  right: -40%;
+  box-shadow: -5px 3px black;
+}
+.middle-button {
+  margin: 0;
+  position: relative;
+  top: 60%;
+  right: -40%;
+  box-shadow: 0px 3px black;
+}
+.right-button {
+  margin: 0;
+  position: relative;
+  top: 60%;
+  right: -40%;
+  box-shadow: 5px 3px black;
+}
+<!-- End of style for different buttons -->
 .btn-text-center{
 	text-align:center;	
 }
 
 }
 </style>
+
 </head>
 <body>
 <h1 align="center">The Car Shop</h1>
 <h2 align="center"> A place to view all kinds of Cars</h2>
 <div class=".btn-text-center">
-	<button class="button">Cars</button>
-	<button class="button">SUVS</button>
-	<button class="button">Trucks</button>
+	<a href="./cars">
+		<button class="button left-button">Cars</button>\
+	</a>
+	<button class="button middle-button">SUVS</button>
+	<button class="button right-button">Trucks</button>
 </div>
 
 	
